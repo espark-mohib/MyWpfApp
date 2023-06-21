@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\mohib\MyWPFApp\MyWPFApp\App.xaml
-4718167173
+5-1065660019
 
-10-78484271
+13-24168923
 13-1310406943
-MainWindow.xaml;MVVM\Views\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\SearchBoxTheme.xaml;
+MainWindow.xaml;MVVM\Views\ExploreView.xaml;MVVM\Views\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\SearchBoxTheme.xaml;
 
-False
+True
 

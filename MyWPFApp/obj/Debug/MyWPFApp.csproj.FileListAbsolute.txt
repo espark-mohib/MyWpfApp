@@ -20,3 +20,4 @@ D:\mohib\MyWPFApp\MyWPFApp\obj\Debug\Theme\SearchBoxTheme.baml
 D:\mohib\MyWPFApp\MyWPFApp\obj\Debug\MVVM\Views\HomeView.g.cs
 D:\mohib\MyWPFApp\MyWPFApp\obj\Debug\MVVM\Views\HomeView.baml
 D:\mohib\MyWPFApp\MyWPFApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\mohib\MyWPFApp\MyWPFApp\obj\Debug\MVVM\Views\ExploreView.g.cs

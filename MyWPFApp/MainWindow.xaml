@@ -14,7 +14,10 @@
 
     <Window.DataContext>
         <viewModels:HomeViewModel/>
+        
     </Window.DataContext>
+    
+
 
     <Border Background="#272537"
             CornerRadius="20">
@@ -34,11 +37,8 @@
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Foreground="White"
-                       FontSize="25
-                       "
-                       Margin="20,0,0,0">
-                
-            </TextBlock>
+                       FontSize="25"
+                       Margin="20,0,0,0"/>
 
             <StackPanel Grid.Row="1">
 
@@ -46,14 +46,18 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}">                    
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}">                    
                 </RadioButton>
 
                 <RadioButton Content="Explore"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}">
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding ExploreViewCommand}">
                 </RadioButton>
                 
                 <RadioButton Content="Careers"
@@ -81,11 +85,7 @@
             </ContentControl>
 
 
-        </Grid>
-        
-        
-        
-        
+        </Grid>    
         
     </Border>
 

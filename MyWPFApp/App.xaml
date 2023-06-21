@@ -16,6 +16,11 @@
                 <view:HomeView/>
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModels:ExploreViewModel}">
+                
+                
+            </DataTemplate>
+
         </ResourceDictionary>
 
 
