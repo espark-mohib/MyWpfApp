@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="MyWPFApp.MVVM.Views.HomeView"
+﻿<UserControl x:Class="MyWPFApp.MVVM.Views.ExploreView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -32,7 +32,7 @@
                 </Border.Clip>
 
                 <StackPanel>
-                    <TextBlock Text="World's Leader,&#xA;Pakistan econonmy"
+                    <TextBlock Text="World's Giants,&#xA;Pakistan failure"
                                Foreground="White"
                                FontSize="28"
                                Margin="20,10,10,0"/>

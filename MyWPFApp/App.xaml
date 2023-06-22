@@ -5,6 +5,7 @@
              xmlns:viewModels="clr-namespace:MyWPFApp.MVVM.ViewModels"
              xmlns:view="clr-namespace:MyWPFApp.MVVM.Views"
              StartupUri="MainWindow.xaml">
+    
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -15,10 +16,8 @@
             <DataTemplate DataType="{x:Type viewModels:HomeViewModel}">
                 <view:HomeView/>
             </DataTemplate>
-
             <DataTemplate DataType="{x:Type viewModels:ExploreViewModel}">
-                
-                
+                <view:ExploreView/>
             </DataTemplate>
 
         </ResourceDictionary>

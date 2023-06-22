@@ -13,8 +13,7 @@
         AllowsTransparency="True">
 
     <Window.DataContext>
-        <viewModels:HomeViewModel/>
-        
+        <viewModels:MainViewModel/>
     </Window.DataContext>
     
 
@@ -80,7 +79,7 @@
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="10"
-                            Content="{Binding}">
+                            Content="{Binding CurrentView}">
                 
             </ContentControl>
 
